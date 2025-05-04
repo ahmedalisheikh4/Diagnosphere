@@ -5,7 +5,15 @@ import { Button } from "@/components/ui/button";
 import ProgressBar from "@/components/ProgressBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { ArrowRight, ShieldCheck, Brain, Microscope } from "lucide-react";
+import {
+  ArrowRight,
+  ShieldCheck,
+  Brain,
+  Microscope,
+  WashingMachine,
+  AtomIcon,
+  BrainIcon,
+} from "lucide-react";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -70,7 +78,7 @@ const Index = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="bg-diagnosphere-primary/20 text-diagnosphere-primary px-4 py-1.5 rounded-full text-sm font-medium">
-                01 / Technology Used
+                01 / Our Mission
               </span>
             </motion.div>
 
