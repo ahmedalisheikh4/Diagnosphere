@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB Connection with error handling and retry logic
-const MONGODB_URI = 'mongodb+srv://admin:admin@fyp.x57l7.mongodb.net/diagnosphere?retryWrites=true&w=majority&appName=FYP';
+const MONGODB_URI = '';
 
 const connectWithRetry = () => {
   mongoose.connect(MONGODB_URI)
